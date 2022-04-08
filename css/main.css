@@ -7,7 +7,7 @@
 }
 body {
     background-color: #0D2821;
-    font-family: 'Poppins';
+    font-family: 'Grape Nuts', cursive;
 }
 
 .header{
@@ -39,7 +39,6 @@ body {
 .header__row__item__inner-item {
     margin-left: 20px;
     margin-right: 20px;
-    
   display: inline-block;
   position: relative;
 }
@@ -62,6 +61,10 @@ body {
   transform-origin: bottom left;
 }
 
+.header__row__item__inner-item>a:hover {
+    font-weight: bold;
+}
+
 .header__row__item:last-child {
     padding-right: 25px;
 }
@@ -74,10 +77,12 @@ body {
 .header__row__item__inner-item>a {
     text-decoration: none;
     color: white;
-    font-size: 20px;
+    font-size: 30px;
     
 }
 
 .header__row__item--logo {
     text-decoration: none;
+    font-weight: bold;
+    color: #ffffffd0;
 }
