@@ -1,0 +1,68 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #0D2821;
+    font-family: 'Poppins';
+}
+
+.header__row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__row__item--sizing {
+    margin: 10px;
+    font-size: 30px;
+    color: white;
+    font-family: 'Grape Nuts', cursive;
+}
+
+.header__row__item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.header__row__item__inner-item {
+    margin-left: 10px;
+    margin-right: 10px;
+    
+  display: inline-block;
+  position: relative;
+}
+
+.header__row__item__inner-item>a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.header__row__item__inner-item>a:hover::after {
+     transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.header__row__item:last-child {
+    padding-right: 25px;
+}
+
+.header__row__item__inner-item>a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    
+}
