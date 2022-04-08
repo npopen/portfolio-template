@@ -1,0 +1,23 @@
+.skill-logo {
+    width: 70px;
+    margin-left: 35px;
+}
+
+.skills__title {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.skill__logos {
+    display: flex;
+    flex-direction: row;
+}
+
+.skill__logos > img {
+}
+
+#skills {
+    display: flex;
+    flex-direction: column;
+}
