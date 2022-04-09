@@ -72,7 +72,7 @@ body {
 }
 
 .header__row__item:first-child {
-  padding-right: 25px;
+  padding-left: 20px;
 }
 
 .header__row__item__inner-item > a {

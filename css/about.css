@@ -38,6 +38,15 @@
   padding: 7px;
 }
 
+.fab,.fas{
+  transition: transform .2s;
+}
+
+.fab:hover,.fas:hover {
+  transform: scale(1.5);
+  color: #0b5bb6;
+}
+
 .container__child--content--social {
   margin-top: 30px;
   font-size: 3rem;
@@ -55,6 +64,7 @@
 }
 
 .container__child--title > h2 span {
+  
   position: relative;
   animation: wave 5s infinite ease-in-out;
 
